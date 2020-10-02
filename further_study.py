@@ -168,30 +168,16 @@ def custom_count(input_list, value):
 
 def custom_reverse(input_list):
     """Reverse the elements of the input_list.
-
     Like input_list.reverse(), custom_reverse(input_list) should reverse the
     elements of the original list and return nothing (we call this reversing
     "in place").
-
     For example:
-
         >>> multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
         >>> custom_reverse(multiples)
         >>> multiples == [27, 24, 21, 18, 15, 12, 9, 6, 3, 0]
         True
-
     """
-    # print('Test')
-    # lst = []
-    # for i in range(len(input_list) - 1, -1):
-    #     lst.append(input_list[i])
-
-    # input_list = lst
-    # print(input_list)
     input_list = input_list[::-1]
-    # print(input_list)
-
-# input_list[::-1]
 
 
 def custom_contains(input_list, value):
